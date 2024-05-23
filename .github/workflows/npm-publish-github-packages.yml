@@ -12,7 +12,7 @@ env:
 
 jobs:
   prepare:
-    runs-on: self-hosted
+    runs-on: ubuntu
     steps:
       - name: Prepare inputs
         run: |
